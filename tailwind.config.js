@@ -192,6 +192,9 @@ module.exports = {
         "fadein-opacity": "fadein-opacity 0.6s ease-in-out",
         spin: "spin .5s linear infinite",
       },
+      backgroundImage: {
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+      },
     },
   },
   plugins: [

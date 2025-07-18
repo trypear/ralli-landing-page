@@ -11,12 +11,6 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
 import { useTheme } from "next-themes";
 import { MoonStar, Sun } from "lucide-react";
 import { User } from "@supabase/supabase-js";
@@ -140,69 +134,11 @@ export default function MobileMenu({
                   </>
                 )}
               </div>
-              <MobileNavItem href="/" onClick={() => setIsOpen(false)}>
-                Home
+              <MobileNavItem href="/about" onClick={() => setIsOpen(false)}>
+                About
               </MobileNavItem>
-              <Accordion type="single" collapsible className="w-full">
-                <AccordionItem value="resources">
-                  <AccordionTrigger>Resources</AccordionTrigger>
-                  <AccordionContent>
-                    <ul className="ml-4 space-y-1">
-                      <MobileNavItem
-                        href="/about"
-                        onClick={() => setIsOpen(false)}
-                      >
-                        About
-                      </MobileNavItem>
-                      <MobileNavItem
-                        href="https://github.com/trypear/pearai-master"
-                        onClick={() => setIsOpen(false)}
-                      >
-                        Github
-                      </MobileNavItem>
-                      <MobileNavItem
-                        href="/blog"
-                        onClick={() => setIsOpen(false)}
-                      >
-                        Blog
-                      </MobileNavItem>
-                      <MobileNavItem
-                        href="/faq"
-                        onClick={() => setIsOpen(false)}
-                      >
-                        FAQ
-                      </MobileNavItem>
-                      <MobileNavItem
-                        href="/changelog"
-                        onClick={() => setIsOpen(false)}
-                      >
-                        Changelog
-                      </MobileNavItem>
-                    </ul>
-                  </AccordionContent>
-                </AccordionItem>
-                <AccordionItem value="programs">
-                  <AccordionTrigger>Programs</AccordionTrigger>
-                  <AccordionContent>
-                    <ul className="ml-4 space-y-1">
-                      <MobileNavItem
-                        href="/programs/oss-contributor-benefit"
-                        onClick={() => setIsOpen(false)}
-                      >
-                        OSS Contributor Program
-                      </MobileNavItem>
-                      <MobileNavItem
-                        href="/programs/beta-tester"
-                        onClick={() => setIsOpen(false)}
-                      >
-                        Beta Tester Program
-                      </MobileNavItem>
-                    </ul>
-                  </AccordionContent>
-                </AccordionItem>
-              </Accordion>
-              <MobileNavItem href="/pricing" onClick={() => setIsOpen(false)}>
-                Pricing
+              <MobileNavItem href="/faq" onClick={() => setIsOpen(false)}>
+                FAQ
               </MobileNavItem>
             </ul>
           </nav>

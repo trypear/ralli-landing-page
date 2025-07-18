@@ -13,10 +13,6 @@ export const metadata: Metadata = constructMetadata({
 export default function Home() {
   return (
     <>
-      <Hero />
-      <VideoSection />
-      <Features />
-      {/* <OpenSource /> */}
       <Showcase />
     </>
   );

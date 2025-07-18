@@ -7,7 +7,7 @@ export default function Features() {
 
       <div className="flex items-center justify-center lg:pb-8">
         <span className="max-w-md text-center text-4xl font-medium lg:max-w-2xl lg:text-[44px] lg:font-semibold">
-          PearAI Makes You An Expert
+          Ralli Makes Group Planning Easy
         </span>
       </div>
 
@@ -18,21 +18,19 @@ export default function Features() {
           <div className="grid items-start lg:grid-cols-2">
             <div className="space-y-2">
               <span className="text-2xl font-medium leading-tight">
-                PearAI Router
+                Ralli AI Assistant
               </span>
               <p className="text-base text-[#666666]">
-                The best AI model for coding changes by the week, only known to
-                insiders managing multiple subscriptions. PearAI Router
-                automatically connects you to the highest-performing AI models
-                for coding across all tools. Simply select &apos;PearAI
-                Model&apos; to get the best on market with a single
-                subscription.
+                Smart AI that helps you plan the perfect group activities. From
+                suggesting venues to coordinating schedules, Ralli AI
+                understands your group&apos;s preferences and makes planning
+                effortless with intelligent recommendations.
               </p>
             </div>
 
             <div className="space-y-3 pt-7 lg:pl-10 lg:pt-0">
               <div className="flex items-center gap-2 rounded-xl border-2 border-[#A1DB4B] bg-[#B3F353] px-4 py-5 opacity-80">
-                <span className="font-medium">PearAI Model</span>
+                <span className="font-medium">Ralli AI</span>
                 <span className="font-mono font-medium text-[#666666]">
                   94.10
                 </span>
@@ -75,21 +73,22 @@ export default function Features() {
               <div className="space-y-1 lg:space-y-2 lg:px-7">
                 <div className="flex flex-col justify-between gap-1 lg:flex-row lg:items-end lg:gap-0">
                   <span className="text-2xl font-medium">
-                    PearAI Creator <br />{" "}
+                    Event Creator <br />{" "}
                   </span>
                   <span className="flex text-base font-normal lg:hidden">
                     (Coming Soon)
                   </span>
                   <span className="mb-1 text-[#b3b3b3]">
-                    Powered by Roo Code / Cline*
+                    Powered by Ralli AI
                   </span>
                 </div>
                 <span className="hidden text-base font-normal lg:flex">
                   (Coming Soon)
                 </span>
                 <p className="text-base text-[#666666]">
-                  Create new projects from scratch! PearAI ensures your project
-                  adheres to the latest technologies and best practices.
+                  Create amazing group events from scratch! Ralli helps you plan
+                  memorable experiences with smart suggestions and coordinated
+                  logistics.
                 </p>
               </div>
               <div className="relative flex items-center justify-center">
@@ -111,14 +110,16 @@ export default function Features() {
             <div className="flex h-full flex-col justify-between">
               <div className="space-y-1 lg:space-y-2">
                 <div className="flex flex-col justify-between gap-1 lg:flex-row lg:items-end lg:gap-0">
-                  <span className="text-2xl font-medium">PearAI Agent</span>
+                  <span className="text-2xl font-medium">
+                    Group Coordinator
+                  </span>
                   <span className="mb-1 text-[#b3b3b3]">
-                    Powered by Roo Code / Cline*
+                    Powered by Ralli AI
                   </span>
                 </div>
                 <p className="text-base text-[#666666]">
-                  Coding agent that can automatically code features and fix bugs
-                  for you.
+                  Intelligent coordinator that manages invitations, RSVPs, and
+                  keeps everyone in the loop automatically.
                 </p>
               </div>
               <div className="flex items-center justify-center">
@@ -142,18 +143,19 @@ export default function Features() {
             <div className="flex h-full flex-col justify-between">
               <div className="space-y-1 lg:space-y-2">
                 <div className="flex flex-col justify-between gap-1 lg:flex-row lg:items-end lg:gap-0">
-                  <span className="text-2xl font-medium">PearAI Login</span>
+                  <span className="text-2xl font-medium">Group Chat</span>
                   <span className="flex text-base font-normal lg:hidden">
                     (Coming Soon)
                   </span>
-                  <span className="mb-1 text-[#b3b3b3]">Powered by PearAI</span>
+                  <span className="mb-1 text-[#b3b3b3]">Powered by Ralli</span>
                 </div>
                 <span className="hidden text-base font-normal lg:flex">
                   (Coming Soon)
                 </span>
                 <p className="text-base text-[#666666]">
-                  Almost all projects require users to login. Let PearAI help
-                  you with this with best practices and the latest tools.
+                  Keep your group connected with integrated chat features. Share
+                  updates, coordinate last-minute changes, and keep everyone
+                  engaged.
                 </p>
               </div>
               <div className="relative flex-col items-center justify-center">
@@ -175,20 +177,18 @@ export default function Features() {
             <div className="flex h-full flex-col justify-between">
               <div className="space-y-0 px-3 lg:space-y-2 lg:px-0">
                 <div className="flex flex-col justify-between gap-1 lg:flex-row lg:items-end lg:gap-0">
-                  <span className="text-2xl font-medium">PearAI Launch</span>
+                  <span className="text-2xl font-medium">Event Sharing</span>
                   <span className="flex text-base font-normal lg:hidden">
                     (Coming Soon)
                   </span>
-                  <span className="mb-1 text-[#b3b3b3]">
-                    Powered by Netlify*
-                  </span>
+                  <span className="mb-1 text-[#b3b3b3]">Powered by Ralli</span>
                 </div>
                 <span className="hidden text-base font-normal lg:flex">
                   (Coming Soon)
                 </span>
                 <p className="text-base text-[#666666]">
-                  Launches your web projects to the internet so you can share
-                  them with everyone.
+                  Share your events with friends and family. Create beautiful
+                  event pages that make it easy for everyone to stay informed.
                 </p>
               </div>
               <div className="relative flex items-center justify-center">

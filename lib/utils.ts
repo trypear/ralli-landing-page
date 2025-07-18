@@ -23,9 +23,9 @@ interface OSType {
 }
 
 const defaultMetadata = {
-  title: "PearAI - The AI Code Editor For Your Next Project",
+  title: "Ralli - Your AI Group Planner",
   description:
-    "PearAI is an open source AI code editor with powerful features like AI chat, PearAI Creator, and AI debugging to help you make what excites.",
+    "Ralli is your AI-powered group planning assistant that helps you organize, coordinate, and manage group activities with intelligent recommendations and seamless coordination.",
 };
 
 export const normalizeDate = (dateString: string) => {
@@ -60,14 +60,15 @@ export const constructMetadata = ({
 }: MetadataProps) => {
   return {
     metadataBase: new URL("https://trypear.ai/"),
-    title: title ? `${title} - PearAI` : defaultMetadata.title,
+    title: title ? `${title} - Ralli` : defaultMetadata.title,
     description,
     keywords: [
-      "code editor",
-      "ai code editor",
+      "group planner",
+      "ai group planner",
       "ai",
-      "pearai",
-      "open source code editor",
+      "ralli",
+      "event planning",
+      "group coordination",
     ],
     alternates: {
       canonical,
